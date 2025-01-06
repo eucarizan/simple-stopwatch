@@ -1,4 +1,6 @@
 const timer = document.getElementById("timer");
+const timeList = document.getElementById("timeList");
+
 let interval;
 let time = 0;
 let running = false;
@@ -32,6 +34,13 @@ function resetStopwatch() {
   timer.textContent = formatTime(0);
 }
 
+function lapStopwatch() {
+  let newTime = document.createElement("li");
+  newTime.textContent = timer.textContent;
+  timeList.appendChild(newTime);
+}
+
 document.getElementById("start").addEventListener('click', startStopwatch);
 document.getElementById("stop").addEventListener('click', stopStopwatch);
 document.getElementById("reset").addEventListener('click', resetStopwatch);
+document.getElementById("lap").addEventListener('click', lapStopwatch);
