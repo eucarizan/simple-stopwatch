@@ -6,6 +6,7 @@
   - [stages](#stages)
     - [1: setting the scene](#1-setting-the-scene)
     - [2: start and stop the timer](#2-start-and-stop-the-timer)
+    - [3: reset and lap the timer](#3-reset-and-lap-the-timer)
 
 ## learning
 tie html, css, and javascript together to make a functional stopwatch. learn about setinterval and dom methods.
@@ -79,6 +80,41 @@ in this stage, you should:
 example 1:
 
 ![stage 2 demo](./s02.gif)
+
+</details>
+
+### 3: reset and lap the timer 
+<details>
+<summary>add the reset and lap functionalities of the stopwatch</summary>
+
+#### 3.1 description
+alright, sprinters and marathoners in the making, it's time to dive into the heart of our stopwatch app! in the third stage, we're continuing the power of javascript to the track.
+
+reset – ready, set, go again! when the runners need a fresh start, they hit the reset button. your task is to make sure that this button sends our timer back to the starting line, ready for the next lap.
+
+lap – keep track of your progress! every time the athletes complete a lap, they want to capture that moment. implement the lap functionality to record these lapped times as a list item. each press should add a new achievement to the list, showcasing their progress with each stride.
+
+list – where victories are documented! to display these triumphant laps, introduce an unordered or ordered list in the body of our app. this list will serve as a testament to the dedication and hard work of our aspiring racers. let the victories stack up in style!
+
+race day prep mode: engaged! imagine the excitement of race day approaching. with your javascript skills, you're not just coding an app—you're crafting a training companion for our runners. every line of code is a step closer to the finish line.
+
+so, runners and coders alike, let's sprint through this stage with enthusiasm and determination. the stopwatch app is taking shape, and with each feature you implement, you're helping our athletes gear up for victory! on your marks, get set, code!
+
+#### 3.2 objectives
+in this stage, you should:
+- add a list:
+  - add a list (unordered or ordered) with id "laps" to the body of the html.
+- handle reset button click event:
+  - when the reset button is pressed, set the timer display to "00:00:00".
+  - also, clear the list of laps.
+- handle lap button click event:
+  - when the lap button is pressed, create a new list item (`<li>`) with the current lap time.
+  - append the new list item to the list with the id "laps" to display the lap times.
+
+#### 3.3 examples
+example 1:
+
+![stage 03 stopwatch demo](./s03.gif)
 
 </details>
 

@@ -25,5 +25,13 @@ function stopStopwatch() {
   running = false;
 }
 
+function resetStopwatch() {
+  stopStopwatch();
+  interval = null;
+  time = 0;
+  timer.textContent = formatTime(0);
+}
+
 document.getElementById("start").addEventListener('click', startStopwatch);
 document.getElementById("stop").addEventListener('click', stopStopwatch);
+document.getElementById("reset").addEventListener('click', resetStopwatch);
