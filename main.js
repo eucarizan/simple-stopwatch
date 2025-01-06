@@ -32,6 +32,7 @@ function resetStopwatch() {
   interval = null;
   time = 0;
   timer.textContent = formatTime(0);
+  timeList.innerHTML = "";
 }
 
 function lapStopwatch() {
