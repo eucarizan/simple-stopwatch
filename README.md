@@ -7,6 +7,7 @@
     - [1: setting the scene](#1-setting-the-scene)
     - [2: start and stop the timer](#2-start-and-stop-the-timer)
     - [3: reset and lap the timer](#3-reset-and-lap-the-timer)
+    - [4: stopwatch with the style](#4-stopwatch-with-the-style)
 
 ## learning
 tie html, css, and javascript together to make a functional stopwatch. learn about setinterval and dom methods.
@@ -118,20 +119,35 @@ example 1:
 
 </details>
 
+### 4: stopwatch with the style
+<details>
+<summary>optionally, style the application with your creativity</summary>
+
+#### 4.1 description
+congratulations, you've reached the final stretch of our stopwatch app development journey! in this bonus stage, it's time to unleash your creativity and add some flair to the stopwatch with the magic of css. just like a runner preparing for a race, you have the freedom to style the stopwatch in any way you like.
+
+imagine your stopwatch as the sleek, aerodynamic gear that a runner wears to feel unstoppable on the track. whether it's bold colors, smooth animations, or a design that screams speed, this is your chance to make your stopwatch stand out from the crowd.
+
+so, channel your inner designer, and sprint towards the finish line in style! remember, in this stage, there are no limits—just like the boundless potential of a determined runner aiming for victory. let your imagination run wild and create a stopwatch that not only tracks time but also inspires and motivates our runners to push their limits.
+
+get ready to cross the finish line in style!
+
+#### 4.2 objectives
+bonus stage! no extra requirements
+
+#### 4.3 examples
+example 1:
+
+![stopwatch with style 1](./s04-1.png)
+
+example 2:
+
+![stopwatch with style and shows laps](./s04-2.png)
+
+</details>
+
 [<<](https://github.com/eucarizan/front-end/blob/main/README.md)
 <!--
 :%s/\(Sample \(Input\|Output\) \d:\)\n\(.*\)/```\r\r**\1**\r```\3/gc
-
-### 0: 
-<details>
-<summary></summary>
-
-#### 0.1 description
-
-#### 0.2 objectives
-
-#### 0.3 examples
-
-</details>
 -->
 
