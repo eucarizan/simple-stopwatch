@@ -16,4 +16,9 @@ function formatTime(totalSeconds) {
   return `${min}:${sec}:${mil}`;
 }
 
+function stopStopwatch() {
+  clearInterval(interval);
+}
+
 document.getElementById("start").addEventListener('click', startStopwatch);
+document.getElementById("stop").addEventListener('click', stopStopwatch);
