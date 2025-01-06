@@ -1,12 +1,16 @@
 const timer = document.getElementById("timer");
 let interval;
 let time = 0;
+let running = false;
 
 function startStopwatch() {
-  interval = setInterval(() => {
-    time++;
-    timer.textContent = formatTime(time);
-  }, 10);
+  if (!running) {
+    running = true;
+    interval = setInterval(() => {
+      time++;
+      timer.textContent = formatTime(time);
+    }, 10);
+  }
 }
 
 function formatTime(totalSeconds) {
@@ -18,6 +22,7 @@ function formatTime(totalSeconds) {
 
 function stopStopwatch() {
   clearInterval(interval);
+  running = false;
 }
 
 document.getElementById("start").addEventListener('click', startStopwatch);
