@@ -5,6 +5,7 @@
   - [about](#about)
   - [stages](#stages)
     - [1: setting the scene](#1-setting-the-scene)
+    - [2: start and stop the timer](#2-start-and-stop-the-timer)
 
 ## learning
 tie html, css, and javascript together to make a functional stopwatch. learn about setinterval and dom methods.
@@ -47,6 +48,37 @@ the html structure should adhere to the provided format while ensuring appropria
 example 1:
 
 ![simple stopwatch design](./s01.png)
+
+</details>
+
+### 2: start and stop the timer
+<details>
+<summary>add the start and stop functionalities of the stopwatch</summary>
+
+#### 2.1 description
+get those coding sneakers on! in this stage, it's time to lace up your javascript skills and implement the start and stop functionalities for our stopwatch app. picture this: you're gearing up runners for the race of a lifetime, and every millisecond counts!
+
+your mission is to display the crucial metrics of time: minutes, seconds, and milliseconds, all in a sleek and user-friendly interface. when the runners hit that stop button, it's not game over! they should be able to pause, catch their breath, and then seamlessly resume from the exact moment they left off.
+
+so, strap in, get ready to code like the wind, and let's build a stopwatch that'll have those runners race-ready in no time!
+
+#### 2.2 objectives
+in this stage, you should:
+
+- handle start button click event:
+  - when the start button is pressed, the timer should start.
+  - display the time in the format minutes, seconds, and hundredths of seconds (mm:ss:ms) (see the below example).
+  - ensure the timer only starts if it's not already running.
+- handle stop button click event:
+  - after pressing the stop button, stop the timer.
+  - ensure the timer is stopped only if it's currently running.
+- resume timer after pressing start:
+  - when the start button is pressed again after stopping, the timer should continue from where it left off.
+
+#### 2.3 examples
+example 1:
+
+![stage 2 demo](./s02.gif)
 
 </details>
 
